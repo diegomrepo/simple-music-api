@@ -16,4 +16,4 @@ Run the app server with hot reload
 poetry run uvicorn album_fastapi.main:app --reload
 ```
 
-Navigate to /docs or your favorite API to consume.
+Navigate to `/docs` in your browser to consume (or your favorite software).
