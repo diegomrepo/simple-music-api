@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "album-fastapi"
+version = "0.1.0"
+description = "Simple backend music library"
+authors = ["Diego <diegomrepo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "album_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+databases = "^0.4.3"
+fastapi = "^0.68.0"
+uvicorn = "^0.15.0"
+orm = "^0.1.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
