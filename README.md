@@ -13,5 +13,7 @@ poetry install
 Run the app server with hot reload
 
 ```python
-peotry run uvicorn album_fastapi.main:app --reload  
+poetry run uvicorn album_fastapi.main:app --reload
 ```
+
+Navigate to /docs or your favorite API to consume.
