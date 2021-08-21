@@ -17,3 +17,11 @@ poetry run uvicorn album_fastapi.main:app --reload
 ```
 
 Navigate to `/docs` in your browser to consume (or your favorite software).
+
+## Tests
+
+To run the unit tests
+
+```python
+peotry pytest
+```
