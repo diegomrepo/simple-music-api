@@ -23,5 +23,5 @@ Navigate to `/docs` in your browser to consume (or your favorite software).
 To run the unit tests
 
 ```python
-peotry pytest
+poetry pytest
 ```
