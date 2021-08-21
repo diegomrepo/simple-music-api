@@ -1,5 +1,4 @@
 [tool.poetry]
-
 name = "album-fastapi"
 version = "0.1.0"
 description = "Simple backend music library"
@@ -21,9 +20,6 @@ pycrunch-engine = "^1.2.2"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-# pyproject.toml
 [tool.pytest.ini_options]
-
-# norecursedirs = ["build", "docs/_build", "*.egg", ".tox", "*.venv"]
 minversion = "6.0"
 addopts = "-ra -q -p no:warnings"
